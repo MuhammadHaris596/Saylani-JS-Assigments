@@ -23,16 +23,16 @@ for ( var i = 0 ; i <=10 ; i++){
 
 //Qno 4
 
-// var table_num = +prompt("Enter the table's number you want to generate :")
-// var table_length = +prompt(" Enter the Table Length :")
+var table_num = +prompt("Enter the table's number you want to generate :")
+var table_length = +prompt(" Enter the Table Length :")
 
-// document.write(`<br> <br>Multiplication of table ${table_num}`)
-// document.write(`<br> <br> Length ${table_length}`)
+document.write(`<br> <br>Multiplication of table ${table_num}`)
+document.write(`<br> <br> Length ${table_length}`)
 
 
-// for ( var i = 1 ; i <= table_length ; i++){
-//     document.write(`<br> <br> ${table_num} x ${i} = ${table_num * i} <br>`)
-// }
+for ( var i = 1 ; i <= table_length ; i++){
+    document.write(`<br> <br> ${table_num} x ${i} = ${table_num * i} <br>`)
+}
 
 
 
@@ -49,11 +49,11 @@ for ( var i = 0 ; i < fruits.length ; i++){
 // //Qno 6
 // //a 
 
-// document.write(`<br> <br> <h1> Counting : </h1> `)
+document.write(`<br> <br> <h1> Counting : </h1> `)
 
-// for (var i = 1 ; i <=15 ; i++){
-//     document.write(`  ${i} ,`)
-// }
+for (var i = 1 ; i <=15 ; i++){
+    document.write(`  ${i} ,`)
+}
 
 // //b
 
