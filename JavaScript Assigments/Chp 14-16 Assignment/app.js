@@ -46,22 +46,22 @@ for( var i = 0 ; i < qualtifications.length ; i++){
 
 ///Qno8
 
-// var std_name =["Sulaeh Farroq" , "Muhammad Ali", "Ishaq Bhojani"]
+var std_name =["Sulaeh Farroq" , "Muhammad Ali", "Ishaq Bhojani"]
 
-// var std_score =[]
+var std_score =[]
 
-// var totalmarks= 500;
+var totalmarks= 500;
 
-// for ( var score = 0 ; score < 3 ; score++){
+for ( var score = 0 ; score < 3 ; score++){
     
-//     std_score[score] =  + prompt(`Enter the score of student ${score+1}`)
-// }
+    std_score[score] =  + prompt(`Enter the score of student ${score+1}`)
+}
 
-// document.write(`<br> Score of Sulaeh Farooq  is ${std_score[0]} . Percentage : ${std_score[0]/ totalmarks *100} <br> <br>
-//                 Score of Muhammad Ali  is ${std_score[1]} . Percentage : ${std_score[1]/ totalmarks *100}   <br> <br>
-//                 Score of Ishaq Bhojani  is ${std_score[2]} . Percentage : ${std_score[2]/ totalmarks *100}  <br> <br>
+document.write(`<br> Score of Sulaeh Farooq  is ${std_score[0]} . Percentage : ${std_score[0]/ totalmarks *100} <br> <br>
+                Score of Muhammad Ali  is ${std_score[1]} . Percentage : ${std_score[1]/ totalmarks *100}   <br> <br>
+                Score of Ishaq Bhojani  is ${std_score[2]} . Percentage : ${std_score[2]/ totalmarks *100}  <br> <br>
     
-//     `)
+    `)
 
  //////////Qno9 // a)
     var colornames=["<br> Blue","Yellow","Red","Purple"]
@@ -71,52 +71,52 @@ for( var i = 0 ; i < qualtifications.length ; i++){
 
 
     var color = ["purple","blue","yellow"]
-    // var  askuser =  +prompt("How many color you want to add  at the begining")
+    var  askuser =  +prompt("How many color you want to add  at the begining")
 
-    // for( var c = 0 ; c < askuser ;  c++ ){
-    //     color[c] = prompt(` Add color ${c + 1}`)
+    for( var c = 0 ; c < askuser ;  c++ ){
+        color[c] = prompt(` Add color ${c + 1}`)
 
-    //     document.write(`<br> <br> The Colors is ${color[c]}`)
-    // }
+        document.write(`<br> <br> The Colors is ${color[c]}`)
+    }
 
     //OR use push method 
-    // var color_by_user= prompt("Enter the color at the begining ")
-    // color.unshift(color_by_user)
-    // document.write(color)
+    var color_by_user= prompt("Enter the color at the begining ")
+    color.unshift(color_by_user)
+    document.write(color)
 
 
 //b
 
-// var colorby_user= prompt("Enter the color at the end ")
-// color.push(colorby_user)
-// document.write(`<br><br> ${color}`)
+var colorby_user= prompt("Enter the color at the end ")
+color.push(colorby_user)
+document.write(`<br><br> ${color}`)
   
 // //c
-// color.unshift("Blue","Grey")
-// document.write(`<br><br> ${color}`)
+color.unshift("Blue","Grey")
+document.write(`<br><br> ${color}`)
 
 // //d
-// color.shift()
-// document.write(`<br><br> ${color}`)
+color.shift()
+document.write(`<br><br> ${color}`)
 
 // //e
-// color.pop()
-// document.write(`<br><br> ${color}`)
+color.pop()
+document.write(`<br><br> ${color}`)
 
 //f
-// var askuser_index = +prompt("At which index you want to add the element:")
-// var asuser_color =  prompt("Give the color name :")
+var askuser_index = +prompt("At which index you want to add the element:")
+var asuser_color =  prompt("Give the color name :")
     
-// color.splice(askuser_index,0,asuser_color)
-// document.write(`<br><br> ${color}`)
+color.splice(askuser_index,0,asuser_color)
+document.write(`<br><br> ${color}`)
 
 
 //g
-//   askuser_index = +prompt("At which index you want to start the deletion of element:")
-//  asuser_color =  +prompt("How many colors you want to delete ?")
+  askuser_index = +prompt("At which index you want to start the deletion of element:")
+ asuser_color =  +prompt("How many colors you want to delete ?")
     
-// color.splice(askuser_index,asuser_color)
-// document.write(`<br><br> ${color}`)
+color.splice(askuser_index,asuser_color)
+document.write(`<br><br> ${color}`)
 
 
 
