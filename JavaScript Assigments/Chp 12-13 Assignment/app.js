@@ -61,16 +61,16 @@ else if ( inpnum == 0 ){
 
 // //Qno 4
 
-// var char = prompt("Enter any character")
+var char = prompt("Enter any character")
 
-// if (char === "a" || char === "e" || char === "i" || char === "o" || char === "u" || char === "A" || char === "E" || char === "I" || char === "O" || char === "U"){
+if (char === "a" || char === "e" || char === "i" || char === "o" || char === "u" || char === "A" || char === "E" || char === "I" || char === "O" || char === "U"){
 
-//         alert(`The ${char} is vowel`)
-//     }
+        alert(`The ${char} is vowel`)
+    }
 
-//     else{
-//         alert(`The ${char} is not a  vowel`)
-//     }
+    else{
+        alert(`The ${char} is not a  vowel`)
+    }
 
 
 
@@ -78,40 +78,40 @@ else if ( inpnum == 0 ){
 
 // // a,b)
 
-// var signuppasssword = prompt("Enter password to signup")
-// var loginpassword = prompt("Enter your password to Login")
+var signuppasssword = prompt("Enter password to signup")
+var loginpassword = prompt("Enter your password to Login")
 
-// if( loginpassword === ""){
-//     alert("PLease Enter your password ,It is required!")
-// }
+if( loginpassword === ""){
+    alert("PLease Enter your password ,It is required!")
+}
 
-// else if ( loginpassword === signuppasssword ){
-//     alert("Correct ! The password you entered matches the original password")
-// }
+else if ( loginpassword === signuppasssword ){
+    alert("Correct ! The password you entered matches the original password")
+}
 
 
-// else{
-//     alert("Incorrect Password!")
-// }
+else{
+    alert("Incorrect Password!")
+}
 
 
 //     //Qno 6
 
-// var greeting = + prompt("Enter any character ");
-// var hour = 13;
+var greeting = + prompt("Enter any character ");
+var hour = 13;
 
 
-// if (hour < 18) {
-//     greeting = "Good day";
+if (hour < 18) {
+    greeting = "Good day";
 
-// }
+}
 
-// else {
-//     greeting = "Good evening";
+else {
+    greeting = "Good evening";
 
-// }
+}
 
-// // console.log(greeting)
+console.log(greeting)
 
 
 
