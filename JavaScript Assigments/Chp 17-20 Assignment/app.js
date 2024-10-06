@@ -42,6 +42,11 @@ for ( var i = 1 ; i <= table_length ; i++){
 var fruits = ["Apple","Banana","Mango","Orange","Strawberry"]
 
 for ( var i = 0 ; i < fruits.length ; i++){
+    document.write(`<br> ${fruits[i]} <br>`)
+}
+
+
+for ( var i = 0 ; i < fruits.length ; i++){
     document.write(`<br> <br> Element at index ${i} is ${fruits[i]}`)
 }
 
@@ -102,19 +107,23 @@ for ( var i = 1 ; i <= 20 ; i++){
 
 var A = ["cake", "apple", "pie", "cookie", "chips", "patties"]
 var search_by_userinp = prompt("Enter an item to search :")
+var found;
+var index;
 
 
 for( var a = 0 ; a < A.length ; a++){
     if(A[a] === search_by_userinp){
-        alert( `The item is found in the bakery at index ${a} `)
-    }
-
-    else{
-        alert( `The item is not found in the bakery `)
-    }
-
-    break;
+        found = true;
+        index = a;
+       
+    }  
+}
+if (found){
+    alert(`The item is available at index  ${index}`)
     
+}
+else{
+    alert("The item is not available")
 }
 
 //Qno 8
