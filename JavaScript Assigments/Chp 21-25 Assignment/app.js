@@ -135,16 +135,46 @@ else{
 
 
 //Qno 15
-var password = prompt("Enter your Password")
- alert(`Entered password is : ${password}`)
+//Qno15
+var password = prompt("Enter your password")
 
-        if ( password.length >= 6){
-            
-            if (  password.charCodeAt(0) <= 57){
-                alert(`Password can not begin with a number `)
-            }
-    
-        }
+
+//a)
+var notnumber = password.slice(0,1)
+if( notnumber >= "0"  && notnumber <= "9"){
+    alert("Password should not start with a number")
+}
+
+//b)
+if ( password.length < 6){
+    alert("Password must be at least six character long")
+}
+
+
+//c)
+var hasNumber;
+var hasAlphabet;
+for( i = 0 ; i < password.length ; i++){
+
+    let charCode = password.charCodeAt(i);
+
+    if ((charCode >= 65 && charCode <= 90) || (charCode >= 97 && charCode <= 122)) {
+        hasAlphabet = true;
+        break;
+    }
+    if (charCode >= 48 && charCode <= 57) {
+        hasNumber = true;
+        break;
+    }
+
+}
+
+
+if( !hasAlphabet || !hasAlphabet ){
+    alert("The passord is invalid")
+}
+
+
 
      
 
